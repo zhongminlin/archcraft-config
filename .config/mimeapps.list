@@ -1,0 +1,23 @@
+[Added Associations]
+image/png=viewnior.desktop;
+image/jpeg=viewnior.desktop;
+image/gif=viewnior.desktop;
+image/svg+xml=viewnior.desktop;
+text/x-csrc=geany.desktop;
+text/plain=geany.desktop;gpick.desktop;
+application/x-shellscript=geany.desktop;
+application/x-theme=geany.desktop;
+application/json=geany.desktop;
+video/x-matroska=vlc.desktop;
+audio/mpeg=vlc.desktop;
+audio/mp4=vlc.desktop;
+text/x-matlab=geany.desktop;
+application/octet-stream=geany.desktop;
+inode/directory=geany.desktop;
+
+[Default Applications]
+image/gif=viewnior.desktop
+image/svg+xml=viewnior.desktop
+video/x-matroska=vlc.desktop
+audio/mpeg=vlc.desktop
+audio/mp4=vlc.desktop

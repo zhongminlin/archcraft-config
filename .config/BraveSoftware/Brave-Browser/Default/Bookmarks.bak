@@ -1,0 +1,201 @@
+{
+   "checksum": "0ed7e5212f244381928cf0cf32ca090a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13314870040938026",
+            "date_last_used": "0",
+            "guid": "1b255c3b-a628-4f28-9780-3dd658281051",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Can't seem to target Brave with bspc rule : bspwm",
+            "type": "url",
+            "url": "https://www.reddit.com/r/bspwm/comments/nrzrfo/cant_seem_to_target_brave_with_bspc_rule/"
+         }, {
+            "date_added": "13315961667898587",
+            "date_last_used": "13315962856235749",
+            "guid": "f08524d9-cc79-4fe1-9914-e5382d867678",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to use fcitx5 elegantly on Arch Linux | Jeffrey Tse’s Blog",
+            "type": "url",
+            "url": "https://jeffreytse.net/computer/2020/11/19/how-to-use-fcitx5-elegantly-on-arch-linux.html"
+         }, {
+            "date_added": "13315974200821535",
+            "date_last_used": "0",
+            "guid": "30d0868a-1fd4-44c1-b980-62865fdb5a16",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Derek Taylor / Shell Color Scripts · GitLab",
+            "type": "url",
+            "url": "https://gitlab.com/dwt1/shell-color-scripts"
+         }, {
+            "date_added": "13315974849484158",
+            "date_last_used": "0",
+            "guid": "2ea157e0-f0cd-432a-b086-da43208496f5",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Phoney badger / pokemon-colorscripts · GitLab",
+            "type": "url",
+            "url": "https://gitlab.com/phoneybadger/pokemon-colorscripts"
+         }, {
+            "date_added": "13315975851606780",
+            "date_last_used": "0",
+            "guid": "7e473611-6901-4868-95db-17cef7c756c9",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - betterlockscreen/betterlockscreen: 🍀 sweet looking lockscreen for linux system",
+            "type": "url",
+            "url": "https://github.com/betterlockscreen/betterlockscreen"
+         }, {
+            "date_added": "13316245381229933",
+            "date_last_used": "13316404621318269",
+            "guid": "29f1d04a-d97d-43a7-8904-f4e2d9d188ba",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "What keyboard shortcuts can I use in Brave? – Brave Help Center",
+            "type": "url",
+            "url": "https://support.brave.com/hc/en-us/articles/360032272171-What-keyboard-shortcuts-can-I-use-in-Brave-"
+         }, {
+            "date_added": "13316245428200245",
+            "date_last_used": "13316824222100490",
+            "guid": "10b91fbf-996d-4dd2-9233-747c84d5b774",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "zathura config · GitHub",
+            "type": "url",
+            "url": "https://gist.github.com/michaelmrose/9595075b43f24aa903fa"
+         }, {
+            "date_added": "13316245441783242",
+            "date_last_used": "0",
+            "guid": "e8de3bcf-9b18-4d5d-8628-15251010c35a",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "zathurarc: zathura configuration file - Linux Man Pages (5)",
+            "type": "url",
+            "url": "https://www.systutorials.com/docs/linux/man/5-zathurarc/"
+         }, {
+            "date_added": "13316245447890827",
+            "date_last_used": "0",
+            "guid": "b3cfbf55-5694-4f4c-97ad-b7724420dd74",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Zathura 0.4.5 keyboard shortcuts ‒ defkey",
+            "type": "url",
+            "url": "https://defkey.com/zathura-shortcuts"
+         }, {
+            "date_added": "13316404768606046",
+            "date_last_used": "13316849826484106",
+            "guid": "da1af7e5-919d-4389-817a-fcd9da7100ed",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - feelsunbreeze/.dotfiles: Configuration Files for my Arch Linux Setup",
+            "type": "url",
+            "url": "https://github.com/feelsunbreeze/.dotfiles"
+         }, {
+            "date_added": "13316836174656201",
+            "date_last_used": "13316849791109965",
+            "guid": "53443b82-72e9-40b9-bd7e-f0b3a726dc9e",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "zathura/zathurarc at master · lighthaus-theme/zathura · GitHub",
+            "type": "url",
+            "url": "https://github.com/lighthaus-theme/zathura/blob/master/src/zathurarc"
+         }, {
+            "date_added": "13316945430137673",
+            "date_last_used": "0",
+            "guid": "ae6c3928-c1d4-43bd-afbb-9a0f1885b474",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "archcraft-bspwm/theme.bash at main · archcraft-os/archcraft-bspwm · GitHub",
+            "type": "url",
+            "url": "https://github.com/archcraft-os/archcraft-bspwm/blob/main/files/themes/forest/theme.bash"
+         }, {
+            "date_added": "13317547640172453",
+            "date_last_used": "0",
+            "guid": "ad6722fe-2eaf-4504-abd3-547b6527aa95",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - themix-project/themix-gui: Graphical application for generating different color variations of Oomox (Numix-based) and Materia (ex-Flat-Plat) themes (GTK2, GTK3, Cinnamon, GNOME, Openbox, Xfwm), Archdroid, Gnome-Color, Numix, Papirus and Suru++ icon themes. Have a hack for HiDPI in gtk2. Its Base16 plugin also allowing a lot of app themes support like Alacritty, Emacs, GTK4, KDE, VIM and many more.",
+            "type": "url",
+            "url": "https://github.com/themix-project/themix-gui"
+         }, {
+            "date_added": "13317547671124325",
+            "date_last_used": "0",
+            "guid": "731110fb-07b6-4062-b022-c086709266d0",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Lighthaus",
+            "type": "url",
+            "url": "https://lighthaustheme.com/"
+         }, {
+            "date_added": "13317547695616233",
+            "date_last_used": "0",
+            "guid": "cfdda490-fce7-433b-9461-c7caffb81a13",
+            "id": "27",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Catppuccin · GitHub",
+            "type": "url",
+            "url": "https://github.com/catppuccin"
+         } ],
+         "date_added": "13314869898625199",
+         "date_last_used": "0",
+         "date_modified": "13317547695616233",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13314869898625206",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13314869898625213",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

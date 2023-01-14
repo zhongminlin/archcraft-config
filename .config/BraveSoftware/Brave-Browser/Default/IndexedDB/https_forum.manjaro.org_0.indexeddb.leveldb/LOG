@@ -1,0 +1,6 @@
+2022/12/30-01:29:20.836 11603 Creating DB /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb since it was missing.
+2022/12/30-01:29:20.842 11603 Reusing MANIFEST /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/30-01:30:24.222 12707 Level-0 table #5: started
+2022/12/30-01:30:24.225 12707 Level-0 table #5: 66180 bytes OK
+2022/12/30-01:30:24.228 12707 Delete type=0 #3
+2022/12/30-01:30:24.228 12707 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

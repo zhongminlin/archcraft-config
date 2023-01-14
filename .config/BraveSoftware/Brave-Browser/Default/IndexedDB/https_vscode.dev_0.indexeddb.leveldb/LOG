@@ -1,0 +1,7 @@
+2022/12/31-00:07:03.373 2c75 Reusing MANIFEST /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vscode.dev_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/31-00:07:03.373 2c75 Recovering log #3
+2022/12/31-00:07:03.375 2c75 Reusing old log /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vscode.dev_0.indexeddb.leveldb/000003.log 
+2022/12/31-01:12:04.055 eafd Level-0 table #5: started
+2022/12/31-01:12:04.061 eafd Level-0 table #5: 170523 bytes OK
+2022/12/31-01:12:04.064 eafd Delete type=0 #3
+2022/12/31-01:12:04.064 eafd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

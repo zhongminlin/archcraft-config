@@ -1,0 +1,18 @@
+2022/12/29-19:27:13.361 7cb7 Creating DB /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_shopee.co.id_0.indexeddb.leveldb since it was missing.
+2022/12/29-19:27:13.366 7cb7 Reusing MANIFEST /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_shopee.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/29-19:27:13.373 979f Level-0 table #5: started
+2022/12/29-19:27:13.375 979f Level-0 table #5: 636 bytes OK
+2022/12/29-19:27:13.378 979f Delete type=0 #3
+2022/12/29-19:27:13.378 979f Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/29-20:09:39.759 9884 Level-0 table #7: started
+2022/12/29-20:09:39.762 9884 Level-0 table #7: 45746 bytes OK
+2022/12/29-20:09:39.764 9884 Delete type=0 #4
+2022/12/29-20:09:39.764 9884 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/12/29-20:09:39.764 9884 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x02\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00s\x00e\x00s\x00s\x00i\x00o\x00n' @ 240 : 1
+2022/12/29-20:09:39.764 9884 Compacting 1@1 + 1@2 files
+2022/12/29-20:09:39.767 9884 Generated table #8@1: 89 keys, 23269 bytes
+2022/12/29-20:09:39.767 9884 Compacted 1@1 + 1@2 files => 23269 bytes
+2022/12/29-20:09:39.768 9884 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/29-20:09:39.769 9884 Delete type=2 #7
+2022/12/29-20:09:39.769 9884 Delete type=2 #5
+2022/12/29-20:09:39.769 9884 Manual compaction at level-1 from '\x00\x03\x02\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00s\x00e\x00s\x00s\x00i\x00o\x00n' @ 240 : 1 .. (end); will stop at (end)

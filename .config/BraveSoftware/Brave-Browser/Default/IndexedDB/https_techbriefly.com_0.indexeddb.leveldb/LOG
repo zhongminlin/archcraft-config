@@ -1,0 +1,6 @@
+2022/12/30-01:30:14.781 12705 Creating DB /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_techbriefly.com_0.indexeddb.leveldb since it was missing.
+2022/12/30-01:30:14.786 12705 Reusing MANIFEST /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_techbriefly.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/30-01:30:32.724 12705 Level-0 table #5: started
+2022/12/30-01:30:32.726 12705 Level-0 table #5: 574 bytes OK
+2022/12/30-01:30:32.728 12705 Delete type=0 #3
+2022/12/30-01:30:32.728 12705 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

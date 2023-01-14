@@ -1,0 +1,6 @@
+2023/01/08-21:33:25.895 1e86a Creating DB /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb since it was missing.
+2023/01/08-21:33:25.900 1e86a Reusing MANIFEST /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/08-21:33:30.968 1e95a Level-0 table #5: started
+2023/01/08-21:33:30.971 1e95a Level-0 table #5: 9122 bytes OK
+2023/01/08-21:33:30.973 1e95a Delete type=0 #3
+2023/01/08-21:33:30.973 1e95a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

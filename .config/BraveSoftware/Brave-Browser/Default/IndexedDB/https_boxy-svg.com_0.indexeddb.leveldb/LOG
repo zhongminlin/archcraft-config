@@ -1,0 +1,19 @@
+2023/01/09-00:57:02.573 3930a Creating DB /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_boxy-svg.com_0.indexeddb.leveldb since it was missing.
+2023/01/09-00:57:02.578 3930a Reusing MANIFEST /home/zlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_boxy-svg.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/09-00:57:02.670 3cc8d Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/01/09-00:57:07.562 3cc8f Level-0 table #5: started
+2023/01/09-00:57:07.566 3cc8f Level-0 table #5: 15132 bytes OK
+2023/01/09-00:57:07.570 3cc8f Delete type=0 #3
+2023/01/09-00:57:07.570 3930a Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/01/09-00:57:19.789 3bd61 Level-0 table #7: started
+2023/01/09-00:57:19.791 3bd61 Level-0 table #7: 2652 bytes OK
+2023/01/09-00:57:19.793 3bd61 Delete type=0 #4
+2023/01/09-00:57:19.793 3bd61 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/01/09-00:57:19.793 3bd61 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x09\x02\x01\x14\x00P\x00p\x00u\x00i\x00S\x00R\x00X\x00q\x00g\x004\x008\x00a\x001\x00j\x00r\x00c\x00F\x00y\x00O\x00c' @ 1132 : 1
+2023/01/09-00:57:19.793 3bd61 Compacting 1@1 + 1@2 files
+2023/01/09-00:57:19.795 3bd61 Generated table #8@1: 283 keys, 5009 bytes
+2023/01/09-00:57:19.795 3bd61 Compacted 1@1 + 1@2 files => 5009 bytes
+2023/01/09-00:57:19.798 3bd61 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/09-00:57:19.798 3bd61 Delete type=2 #7
+2023/01/09-00:57:19.798 3bd61 Delete type=2 #5
+2023/01/09-00:57:19.798 3bd61 Manual compaction at level-1 from '\x00\x04\x09\x02\x01\x14\x00P\x00p\x00u\x00i\x00S\x00R\x00X\x00q\x00g\x004\x008\x00a\x001\x00j\x00r\x00c\x00F\x00y\x00O\x00c' @ 1132 : 1 .. (end); will stop at (end)
