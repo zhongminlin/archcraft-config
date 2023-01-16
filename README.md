@@ -2,7 +2,7 @@
 ## bspcolor
 - added color scheme deployment to zathura, cava, bashtop
 ## polybar
-- Added openweatherapi script
+- Added openweathermap script
 - Added fcitx indicator
 ## custom color schemes and themes
 - cyber (pywal)
