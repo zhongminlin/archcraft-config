@@ -1,0 +1,15 @@
+2023/02/25-19:20:41.835 3 Reusing MANIFEST /home/zlin/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2023/02/25-19:20:41.836 3 Recovering log #61
+2023/02/25-19:20:41.838 3 Reusing old log /home/zlin/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000061.log 
+2023/02/25-19:21:30.056 3 Level-0 table #65: started
+2023/02/25-19:21:30.061 3 Level-0 table #65: 128222 bytes OK
+2023/02/25-19:21:30.064 3 Delete type=0 #61
+2023/02/25-19:21:30.064 3 Compacting 4@0 + 1@1 files
+2023/02/25-19:21:30.076 3 Generated table #66@0: 151 keys, 572776 bytes
+2023/02/25-19:21:30.077 3 Compacted 4@0 + 1@1 files => 572776 bytes
+2023/02/25-19:21:30.079 3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/25-19:21:30.080 3 Delete type=2 #65
+2023/02/25-19:21:30.080 3 Delete type=2 #57
+2023/02/25-19:21:30.080 3 Delete type=2 #59
+2023/02/25-19:21:30.080 3 Delete type=2 #62
+2023/02/25-19:21:30.080 3 Delete type=2 #55

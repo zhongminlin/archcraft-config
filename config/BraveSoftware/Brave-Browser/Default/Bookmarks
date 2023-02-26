@@ -1,0 +1,276 @@
+{
+   "checksum": "0c3ff6df98aae9a97fa6a3cbc798ff4c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13314870040000000",
+            "date_last_used": "0",
+            "guid": "1423fb86-2523-4486-850f-6bd11b597a1a",
+            "id": "5",
+            "name": "Can't seem to target Brave with bspc rule : bspwm",
+            "type": "url",
+            "url": "https://www.reddit.com/r/bspwm/comments/nrzrfo/cant_seem_to_target_brave_with_bspc_rule/"
+         }, {
+            "date_added": "13315961667000000",
+            "date_last_used": "0",
+            "guid": "bbabb16a-d89a-414f-a973-84e7af02e48f",
+            "id": "6",
+            "name": "How to use fcitx5 elegantly on Arch Linux | Jeffrey Tse’s Blog",
+            "type": "url",
+            "url": "https://jeffreytse.net/computer/2020/11/19/how-to-use-fcitx5-elegantly-on-arch-linux.html"
+         }, {
+            "date_added": "13315974200000000",
+            "date_last_used": "0",
+            "guid": "42c893c9-58ca-49df-b32d-8ae71afd6552",
+            "id": "7",
+            "name": "Derek Taylor / Shell Color Scripts · GitLab",
+            "type": "url",
+            "url": "https://gitlab.com/dwt1/shell-color-scripts"
+         }, {
+            "date_added": "13315974849000000",
+            "date_last_used": "0",
+            "guid": "23cd5182-bf4c-4141-a373-2eb2f4f96043",
+            "id": "8",
+            "name": "Phoney badger / pokemon-colorscripts · GitLab",
+            "type": "url",
+            "url": "https://gitlab.com/phoneybadger/pokemon-colorscripts"
+         }, {
+            "date_added": "13315975851000000",
+            "date_last_used": "0",
+            "guid": "2ee2ac08-28d0-4fbb-b7c7-edb711747885",
+            "id": "9",
+            "name": "GitHub - betterlockscreen/betterlockscreen: 🍀 sweet looking lockscreen for linux system",
+            "type": "url",
+            "url": "https://github.com/betterlockscreen/betterlockscreen"
+         }, {
+            "date_added": "13316245381000000",
+            "date_last_used": "0",
+            "guid": "e2f5d631-7326-4785-b7e7-74aea1817b73",
+            "id": "10",
+            "name": "What keyboard shortcuts can I use in Brave? – Brave Help Center",
+            "type": "url",
+            "url": "https://support.brave.com/hc/en-us/articles/360032272171-What-keyboard-shortcuts-can-I-use-in-Brave-"
+         }, {
+            "date_added": "13316245428000000",
+            "date_last_used": "0",
+            "guid": "102d7aa2-fa1f-4ef4-88da-5848acaa2396",
+            "id": "11",
+            "name": "zathura config · GitHub",
+            "type": "url",
+            "url": "https://gist.github.com/michaelmrose/9595075b43f24aa903fa"
+         }, {
+            "date_added": "13316245441000000",
+            "date_last_used": "0",
+            "guid": "520658fe-541e-4f6b-8ae3-d3548a966f31",
+            "id": "12",
+            "name": "zathurarc: zathura configuration file - Linux Man Pages (5)",
+            "type": "url",
+            "url": "https://www.systutorials.com/docs/linux/man/5-zathurarc/"
+         }, {
+            "date_added": "13316245447000000",
+            "date_last_used": "0",
+            "guid": "8308f807-87d7-45f6-a3dc-0115067af521",
+            "id": "13",
+            "name": "Zathura 0.4.5 keyboard shortcuts ‒ defkey",
+            "type": "url",
+            "url": "https://defkey.com/zathura-shortcuts"
+         }, {
+            "date_added": "13316404768000000",
+            "date_last_used": "0",
+            "guid": "9eedeb87-cb4f-4a38-885d-61614744d8d9",
+            "id": "14",
+            "name": "GitHub - feelsunbreeze/.dotfiles: Configuration Files for my Arch Linux Setup",
+            "type": "url",
+            "url": "https://github.com/feelsunbreeze/.dotfiles"
+         }, {
+            "date_added": "13316836174000000",
+            "date_last_used": "0",
+            "guid": "76e729c6-3a22-474f-9e57-62f53cf3ff41",
+            "id": "15",
+            "name": "zathura/zathurarc at master · lighthaus-theme/zathura · GitHub",
+            "type": "url",
+            "url": "https://github.com/lighthaus-theme/zathura/blob/master/src/zathurarc"
+         }, {
+            "date_added": "13316945430000000",
+            "date_last_used": "0",
+            "guid": "04141459-6d76-49a6-ad3f-114029948da7",
+            "id": "16",
+            "name": "archcraft-bspwm/theme.bash at main · archcraft-os/archcraft-bspwm · GitHub",
+            "type": "url",
+            "url": "https://github.com/archcraft-os/archcraft-bspwm/blob/main/files/themes/forest/theme.bash"
+         }, {
+            "date_added": "13317547640000000",
+            "date_last_used": "0",
+            "guid": "5c58fa23-c974-4264-8ff9-b1bb6f9f8391",
+            "id": "17",
+            "name": "GitHub - themix-project/themix-gui: Graphical application for generating different color variations of Oomox (Numix-based) and Materia (ex-Flat-Plat) themes (GTK2, GTK3, Cinnamon, GNOME, Openbox, Xfwm), Archdroid, Gnome-Color, Numix, Papirus and Suru++ icon themes. Have a hack for HiDPI in gtk2. Its Base16 plugin also allowing a lot of app themes support like Alacritty, Emacs, GTK4, KDE, VIM and many more.",
+            "type": "url",
+            "url": "https://github.com/themix-project/themix-gui"
+         }, {
+            "date_added": "13317547671000000",
+            "date_last_used": "0",
+            "guid": "05de43c5-caba-4d3a-9c61-c6177895667b",
+            "id": "18",
+            "name": "Lighthaus",
+            "type": "url",
+            "url": "https://lighthaustheme.com/"
+         }, {
+            "date_added": "13317547695000000",
+            "date_last_used": "0",
+            "guid": "417215a7-3d23-4fea-87da-1cb6671f75db",
+            "id": "19",
+            "name": "Catppuccin · GitHub",
+            "type": "url",
+            "url": "https://github.com/catppuccin"
+         }, {
+            "date_added": "13317977796000000",
+            "date_last_used": "0",
+            "guid": "f708b90e-12d4-4a12-b632-a73ff39be7e1",
+            "id": "20",
+            "name": "catppuccin/papirus-folders: 📜 Soothing pastel theme for Papirus Icon Theme folders",
+            "type": "url",
+            "url": "https://github.com/catppuccin/papirus-folders"
+         }, {
+            "date_added": "13317978176000000",
+            "date_last_used": "0",
+            "guid": "1786f47d-e269-45d9-bb4d-21100410b64a",
+            "id": "21",
+            "name": "Fausto-Korpsvart/Everforest-GTK-Theme: Everforest colour palette for GTK",
+            "type": "url",
+            "url": "https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme"
+         }, {
+            "date_added": "13317980169000000",
+            "date_last_used": "13320207317263242",
+            "guid": "707590aa-82a8-4281-8614-c6d7a6d9714f",
+            "id": "22",
+            "name": "catppuccin/catppuccin: 😸 Soothing pastel theme for the high-spirited!",
+            "type": "url",
+            "url": "https://github.com/catppuccin/catppuccin"
+         }, {
+            "date_added": "13317980233000000",
+            "date_last_used": "0",
+            "guid": "eb17638c-68d9-4961-81f0-1db0fe6b24fa",
+            "id": "23",
+            "name": "lighthaus-theme (lighthaus-theme) / Repositories",
+            "type": "url",
+            "url": "https://github.com/lighthaus-theme?page=2&tab=repositories"
+         }, {
+            "date_added": "13318387349776286",
+            "date_last_used": "0",
+            "guid": "4d0d5c57-1c0e-475c-93c7-700b81ce636a",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Post Installation | Archcraft",
+            "type": "url",
+            "url": "https://wiki.archcraft.io/docs/install-archcraft/post-install"
+         }, {
+            "date_added": "13320199540945588",
+            "date_last_used": "0",
+            "guid": "a78d5412-fdde-4ca0-adaf-cf488f366a71",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "lush.nvim/CREATE.md at main · rktjmp/lush.nvim",
+            "type": "url",
+            "url": "https://github.com/rktjmp/lush.nvim/blob/main/CREATE.md"
+         }, {
+            "date_added": "13320208916746551",
+            "date_last_used": "0",
+            "guid": "493c6e24-262b-49ef-ab16-96ae80aa369e",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "pacman/Tips and tricks - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Removing_unused_packages_.28orphans.29"
+         }, {
+            "date_added": "13320293907086753",
+            "date_last_used": "0",
+            "guid": "66dba5ed-7b67-4934-a3fa-04b620b34dc1",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "LazyVim/LazyVim: Neovim config for the lazy",
+            "type": "url",
+            "url": "https://github.com/LazyVim/LazyVim"
+         }, {
+            "date_added": "13320294700281732",
+            "date_last_used": "0",
+            "guid": "f36dfadd-ad08-444c-ae77-316168fa31a0",
+            "id": "33",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "deviantfero/wpgtk: a colorscheme, wallpaper and template manager for *nix",
+            "type": "url",
+            "url": "https://github.com/deviantfero/wpgtk"
+         }, {
+            "date_added": "13320296307844422",
+            "date_last_used": "0",
+            "guid": "cfa00d62-999c-492a-88e3-70085673bfcd",
+            "id": "35",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to: customize GNU/linux with wpgtk 1/3 - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=jmY5NEPI4RM"
+         }, {
+            "date_added": "13320296537302347",
+            "date_last_used": "0",
+            "guid": "767d19d5-f0ad-4af9-b4cf-a1f682857f02",
+            "id": "37",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to: customize GNU/linux with wpgtk 2/3 (templates) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=QXpMMP8fT0o&t=75s"
+         }, {
+            "date_added": "13321070477099139",
+            "date_last_used": "0",
+            "guid": "f6fa7b28-dd78-4147-99bf-208557d9bbc7",
+            "id": "39",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Customization · dylanaraps/pywal Wiki",
+            "type": "url",
+            "url": "https://github.com/dylanaraps/pywal/wiki/Customization"
+         } ],
+         "date_added": "13318378899326851",
+         "date_last_used": "0",
+         "date_modified": "13321070477099139",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13318378899326853",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13318378899326854",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

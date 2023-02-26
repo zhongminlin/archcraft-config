@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.local/bin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -124,10 +124,11 @@ alias ohmyzsh="thunar ~/.oh-my-zsh"
 # ls
 alias l='ls -lh'
 alias ll='ls -lah'
-alias la='ls -A'
+alias la='exa -la'
 alias lm='ls -m'
 alias lr='ls -R'
 alias lg='ls -l --group-directories-first'
+alias lt='exa --tree --level=2'
 
 # git
 alias gcl='git clone --depth 1'
