@@ -429,8 +429,8 @@ apply_zathura () {
 
 	set index-bg                    "${BACKGROUND}"
 	set index-fg                    "${GREEN}" 
-	set index-active-bg             "${BLACK}"
-	set index-active-fg             "${YELLOW}" 
+	set index-active-bg             "${YELLOW}"
+	set index-active-fg             "${BLACK}" 
 	
 	set notification-error-bg       "${RED}" 
 	set notification-error-fg       "${BACKGROUND}" 
