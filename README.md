@@ -1,14 +1,11 @@
-# archcraft-config bspwm
+# archcraft-config bspwm changelog Feb 25, 2023
 ## bspcolor
-- added color scheme deployment to zathura, cava, bashtop
+- added color scheme deployment to geany, brave and start page
 ## polybar
-- Added openweathermap script
-- Added fcitx indicator
-## custom color schemes and themes
-- cyber (pywal)
-- desert (pywal)
-- catppuccin (github/aur)
+- Changed to openweathermap simple script, now uses nerd font weather icons
+## custom color schemes and themes based on pywal
+- tech
+- gesha
+- key
 ## misc
-- Added pokemon-colorscripts-git
-- Modded eww dashboard 
-- my taste of wallpapers
+- I now have a collection of wallpapers, may or may not push to github
