@@ -419,8 +419,8 @@ apply_zathura () {
 	set default-bg                  rgba(${bg_r},${bg_g},${bg_b},0.95)
 	set default-fg                  "${WHITE}"
 
-	set statusbar-bg				"${BACKGROUND}"
-	set statusbar-fg				"${FOREGROUND}"
+	set statusbar-bg                "${BACKGROUND}"
+	set statusbar-fg                "${FOREGROUND}"
 	set inputbar-bg                 "${BACKGROUND}"
 	set inputbar-fg                 "${BLUE}"
 	
