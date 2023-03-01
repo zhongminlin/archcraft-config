@@ -2,7 +2,7 @@
 # . ~/.cache/wal/colors.sh
 
 # Your path for Bento here
-BENTO_DIR="/home/zlin/Bento"
+BENTO_DIR="~/Bento"
 BG_IMAGE=$(cat ~/.cache/wal/wal)
 BG_EXT=${BG_IMAGE##*.}
 
