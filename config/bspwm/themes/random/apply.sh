@@ -411,18 +411,18 @@ apply_zathura () {
 	bg_b=$(printf "%d\n" 0x${BACKGROUND:5:2})
 	cat > "$PATH_CONF"/zathura/zathurarc <<- EOF		
 	# Zathura configuration file
-	set adjust-open 				"best-fit"
-	set recolor 					"true"
-	set recolor-keephue 			"true"
+	set adjust-open                 "best-fit"
+	set recolor                     "true"
+	set recolor-keephue             "true"
 	
 	# semi transparent background
-	set default-bg					rgba(${bg_r},${bg_g},${bg_b},0.95)
-	set default-fg					"${WHITE}"
+	set default-bg                  rgba(${bg_r},${bg_g},${bg_b},0.95)
+	set default-fg                  "${WHITE}"
 
 	set statusbar-bg				"${BACKGROUND}"
 	set statusbar-fg				"${FOREGROUND}"
-	set inputbar-bg					"${BACKGROUND}"
-	set inputbar-fg					"${BLUE}"
+	set inputbar-bg                 "${BACKGROUND}"
+	set inputbar-fg                 "${BLUE}"
 	
 	set highlight-color             "${ALTCYAN}"
 	set highlight-active-color      "${CYAN}"
@@ -451,8 +451,8 @@ apply_zathura () {
 	set render-loading-bg           "${BACKGROUND}"
 	
 	# Recolor mode settings, fully transparent light background
-	set recolor-lightcolor			rgba(${bg_r},${bg_g},${bg_b},0)
-	set recolor-darkcolor			"${WHITE}"
+	set recolor-lightcolor          rgba(${bg_r},${bg_g},${bg_b},0)
+	set recolor-darkcolor           "${WHITE}"
 	EOF
 }
 

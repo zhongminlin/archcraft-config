@@ -1,17 +1,5 @@
 #!/bin/bash
-. ~/.cache/wal/colors.sh
-light_value='0.05'
-dark_value='0.30'
-altbackground="`pastel color $background | pastel lighten $light_value | pastel format hex`"
-altforeground="`pastel color $foreground | pastel darken $dark_value | pastel format hex`"
-color8="`pastel color $color0 | pastel lighten $light_value | pastel format hex`"
-color9="`pastel color $color1 | pastel lighten $light_value | pastel format hex`"
-color10="`pastel color $color2 | pastel lighten $light_value | pastel format hex`"
-color11="`pastel color $color3 | pastel lighten $light_value | pastel format hex`"
-color12="`pastel color $color4 | pastel lighten $light_value | pastel format hex`"
-color13="`pastel color $color5 | pastel lighten $light_value | pastel format hex`"
-color14="`pastel color $color6 | pastel lighten $light_value | pastel format hex`"
-color15="`pastel color $color7 | pastel lighten $light_value | pastel format hex`"
+# . ~/.cache/wal/colors.sh
 
 # Your path for Bento here
 BENTO_DIR="/home/zlin/Bento"
