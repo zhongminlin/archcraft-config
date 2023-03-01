@@ -416,13 +416,13 @@ apply_zathura () {
 	set recolor-keephue 			"true"
 	
 	# semi transparent background
-	set default-bg 					rgba(${bg_r},${bg_g},${bg_b},0.95)
-	set default-fg 					"${WHITE}"
+	set default-bg					rgba(${bg_r},${bg_g},${bg_b},0.95)
+	set default-fg					"${WHITE}"
 
-	set statusbar-bg 				"${BACKGROUND}"
-	set statusbar-fg                "${FOREGROUND}"
-	set inputbar-bg 				"${BACKGROUND}"
-	set inputbar-fg                 "${BLUE}"
+	set statusbar-bg				"${BACKGROUND}"
+	set statusbar-fg				"${FOREGROUND}"
+	set inputbar-bg					"${BACKGROUND}"
+	set inputbar-fg					"${BLUE}"
 	
 	set highlight-color             "${ALTCYAN}"
 	set highlight-active-color      "${CYAN}"
@@ -451,8 +451,8 @@ apply_zathura () {
 	set render-loading-bg           "${BACKGROUND}"
 	
 	# Recolor mode settings, fully transparent light background
-	set recolor-lightcolor 			rgba(${bg_r},${bg_g},${bg_b},0)
-	set recolor-darkcolor 			"${WHITE}"
+	set recolor-lightcolor			rgba(${bg_r},${bg_g},${bg_b},0)
+	set recolor-darkcolor			"${WHITE}"
 	EOF
 }
 
@@ -526,9 +526,9 @@ apply_bashtop () {
 ## Write Brave colors with current theme colors
 apply_brave () {
 	# Bento start page
-	$HOME/BentoPywal/generate-theme.sh
+	. $HOME/BentoPywal/generate-theme.sh
 	# Brave theme
-	$HOME/ChromiumPywal/generate-theme.sh
+	. $HOME/ChromiumPywal/generate-theme.sh
 }
 
 # Compositor --------------------------------
