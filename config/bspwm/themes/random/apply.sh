@@ -16,7 +16,7 @@ random_theme() {
 	if [[ `which wal` ]]; then
 		dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/hourglass.png "Generating Colorscheme. Please wait..."
 		wal -q -n -s -t -e -i "$WALLDIR"
-    wpg -n --noreload -s "$wallpaper"
+		wpg -n --noreload -s "$wallpaper"
 		if [[ "$?" != 0 ]]; then
 			dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/palette.png "Failed to generate colorscheme."
 			exit
@@ -477,8 +477,8 @@ apply_cava () {
 
 ## Write bashtop colors file with current theme colors
 apply_bashtop () {
-	cat > "$PATH_CONF"/bashtop/user_themes/current.theme <<- EOF	
-	theme[main_bg]="${BACKGROUND}"
+	cat > "$PATH_CONF"/bashtop/user_themes/pywal.theme <<- EOF	
+	theme[main_bg]="none"
 	theme[main_fg]="${FOREGROUND}"
 	theme[title]="${FOREGROUND}"
 	theme[hi_fg]="${BLUE}"
