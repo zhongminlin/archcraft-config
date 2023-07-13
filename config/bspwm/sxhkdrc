@@ -27,8 +27,8 @@ alt + F2
 	rofi_runner
 
 # Rofi Menus/Applets
-super + {m,n,r,s,t,w,x}
-	{rofi_music,nmd,rofi_asroot,rofi_screenshot,rofi_themes,rofi_windows,rofi_powermenu}
+super + {b,m,n,r,s,t,w,x}
+	{rofi_bluetooth,rofi_music,nmd,rofi_asroot,rofi_screenshot,rofi_themes,rofi_windows,rofi_powermenu}
 
 ##---------- Applications ----------##
 
@@ -38,7 +38,7 @@ super + shift + {f,w,e}
 
 # Terminal Apps
 ctrl + alt + {v,r,h,b}
-	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {vim,ranger,htop,bashtop}
+	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {vim,ranger,htop,btop}
 
 # Color Picker
 super + p

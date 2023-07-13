@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
-##
 ## Script To Apply Themes
 
 ## Theme ------------------------------------
@@ -69,6 +67,7 @@ apply_rofi() {
 	sed -i -e "s/STYLE=.*/STYLE=\"$THEME\"/g" \
 		${PATH_BSPWM}/scripts/rofi_askpass \
 		${PATH_BSPWM}/scripts/rofi_asroot \
+		${PATH_BSPWM}/scripts/rofi_bluetooth \
 		${PATH_BSPWM}/scripts/rofi_launcher \
 		${PATH_BSPWM}/scripts/rofi_music \
 		${PATH_BSPWM}/scripts/rofi_powermenu \
@@ -150,6 +149,136 @@ apply_geany() {
 	sed -i ${PATH_GEANY}/geany.conf \
 		-e "s/color_scheme=.*/color_scheme=$geany_colors/g" \
 		-e "s/editor_font=.*/editor_font=$geany_font/g"
+		
+	cat > ${PATH_GEANY}/colorschemes/wal.conf <<- EOF	
+	# Colors
+	#-------------------------------------------------------------------------------
+	# BG = ${background}
+	# BG-ALT = ${altbackground}
+	# FG = ${foreground}
+	# FG-ALT = ${altforeground}
+	# RED = ${color1}
+	# GREEN = ${color2}
+	# YELLOW = ${color3}
+	# BLUE = ${color4}
+	# MAGENTA = ${color5}
+	# CYAN = ${color6}
+
+	# LIME = ${color11}
+	# PINK = ${color9}
+	# PARROT = ${color10}
+
+	#-------------------------------------------------------------------------------
+
+	# Theme Info
+	#-------------------------------------------------------------------------------
+	[theme_info]
+	name=Wal
+	description=A dark color-scheme, matching with pywal style.
+	compat=1.22;1.23;1.23.1;1.24
+
+	[named_styles]
+	default=${foreground};${background};false;false
+	error=${color1};${background};true;false
+
+	# Editor styles
+	#-------------------------------------------------------------------------------
+
+	selection=${background};${color5};true;true
+	current_line=${foreground};${altbackground};true;false
+	brace_good=${background};${color2};true;false
+	brace_bad=${background};${color1};true;false
+	margin_line_number=${altforeground}
+	margin_folding=${altforeground};${altbackground}
+	fold_symbol_highlight=${foreground}
+	indent_guide=${background}
+	caret=${color4};${background};false
+	marker_line=${altbackground};${color4};
+	marker_search=${altbackground};${color4};
+	marker_mark=${altbackground};${color4};
+	call_tips=${background};${foreground}
+	white_space=${altforeground};${background};true;false
+
+	# Programming languages
+	#-------------------------------------------------------------------------------
+
+	# comments
+	comment=${color6}
+	comment_doc=${color4}
+	comment_line=comment
+	comment_line_doc=comment_doc
+	comment_doc_keyword=comment_doc,bold
+	comment_doc_keyword_error=comment_doc_keyword,italic
+
+	# numbers
+	number=${color5}
+	number_1=number
+	number_2=number_1
+
+	# type
+	type=${color2}
+	class=type
+	function=default
+	# like, variable \${}
+	parameter=${color11}
+
+	# keywords
+	keyword=${color4}
+	keyword_1=keyword
+	keyword_2=type
+	keyword_3=keyword_1
+	keyword_4=keyword_1
+
+	# identifiers
+	identifier=default
+	identifier_1=identifier
+	identifier_2=identifier_1
+	identifier_3=identifier_1
+	identifier_4=identifier_1
+
+	# strings ""
+	string=${color1}
+	string_1=string
+	string_2=string_1
+	string_3=default
+	string_4=default
+	string_eol=${background};${foreground}
+	# strings ''
+	character=${color2}
+	# command \`\` or \$()
+	backticks=${color10}
+	# heredoc
+	here_doc=${color9}
+
+	scalar=${color11}
+	label=default,bold
+	preprocessor=${color3}
+	regex=${color9}
+	operator=${color3}
+	decorator=preprocessor
+	other=default
+	extra=${color4}
+
+	# Markup-type languages
+	#-------------------------------------------------------------------------------
+
+	tag=type
+	tag_unknown=tag,italic
+	tag_end=tag
+	attribute=keyword
+	attribute_unknown=attribute,italic
+	value=string_1
+	entity=preprocessor
+
+	# Diff
+	#-------------------------------------------------------------------------------
+
+	line_added=${color2}
+	line_removed=${color1}
+	line_changed=${color5}
+
+	EOF
+
 }
 
 # Appearance --------------------------------
@@ -247,17 +376,17 @@ apply_zathura () {
 	bg_b=$(printf "%d\n" 0x${BACKGROUND:5:2})
 	cat > "$PATH_CONF"/zathura/zathurarc <<- EOF		
 	# Zathura configuration file
-	set adjust-open 				"best-fit"
-	set recolor 					"true"
-	set recolor-keephue 			"true"
+	set adjust-open                 "best-fit"
+	set recolor                     "true"
+	set recolor-keephue             "true"
 	
 	# semi transparent background
-	set default-bg 					rgba(${bg_r},${bg_g},${bg_b},0.95)
-	set default-fg 					"${WHITE}"
+	set default-bg                  rgba(${bg_r},${bg_g},${bg_b},0.95)
+	set default-fg                  "${WHITE}"
 
-	set statusbar-bg 				"${BACKGROUND}"
+	set statusbar-bg                "${BACKGROUND}"
 	set statusbar-fg                "${FOREGROUND}"
-	set inputbar-bg 				"${BACKGROUND}"
+	set inputbar-bg                 "${BACKGROUND}"
 	set inputbar-fg                 "${BLUE}"
 	
 	set highlight-color             "${ALTCYAN}"
@@ -265,8 +394,8 @@ apply_zathura () {
 
 	set index-bg                    "${BACKGROUND}"
 	set index-fg                    "${GREEN}" 
-	set index-active-bg             "${BLACK}"
-	set index-active-fg             "${YELLOW}" 
+	set index-active-bg             "${YELLOW}"
+	set index-active-fg             "${BLACK}" 
 	
 	set notification-error-bg       "${RED}" 
 	set notification-error-fg       "${BACKGROUND}" 
@@ -287,8 +416,8 @@ apply_zathura () {
 	set render-loading-bg           "${BACKGROUND}"
 	
 	# Recolor mode settings, fully transparent light background
-	set recolor-lightcolor 			rgba(${bg_r},${bg_g},${bg_b},0)
-	set recolor-darkcolor 			"${WHITE}"
+	set recolor-lightcolor          rgba(${bg_r},${bg_g},${bg_b},0)
+	set recolor-darkcolor           "${WHITE}"
 	EOF
 }
 
@@ -313,8 +442,8 @@ apply_cava () {
 
 ## Write bashtop colors file with current theme colors
 apply_bashtop () {
-	cat > "$PATH_CONF"/bashtop/user_themes/current.theme <<- EOF	
-	theme[main_bg]="${BACKGROUND}"
+	cat > "$PATH_CONF"/bashtop/user_themes/pywal.theme <<- EOF	
+	theme[main_bg]="none"
 	theme[main_fg]="${FOREGROUND}"
 	theme[title]="${FOREGROUND}"
 	theme[hi_fg]="${BLUE}"
@@ -359,6 +488,13 @@ apply_bashtop () {
 	EOF
 }
 
+## Write Brave colors with current theme colors
+apply_brave () {
+	# Bento start page
+	. $HOME/BentoPywal/generate-theme.sh
+	# Brave theme
+	. $HOME/ChromiumPywal/generate-theme.sh
+}
 
 # Compositor --------------------------------
 apply_compositor() {
@@ -421,5 +557,6 @@ getcolors
 apply_zathura
 apply_cava
 apply_bashtop
+apply_brave
 apply_compositor
 apply_bspwm

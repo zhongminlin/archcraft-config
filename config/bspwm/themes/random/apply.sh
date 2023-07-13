@@ -103,6 +103,7 @@ apply_rofi() {
 	sed -i -e "s/STYLE=.*/STYLE=\"$THEME\"/g" \
 		${PATH_BSPWM}/scripts/rofi_askpass \
 		${PATH_BSPWM}/scripts/rofi_asroot \
+		${PATH_BSPWM}/scripts/rofi_bluetooth \
 		${PATH_BSPWM}/scripts/rofi_launcher \
 		${PATH_BSPWM}/scripts/rofi_music \
 		${PATH_BSPWM}/scripts/rofi_powermenu \
